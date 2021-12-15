@@ -3,11 +3,8 @@ import { Provider } from "react-redux";
 
 import "./index.css";
 import App from "./App";
-import store from './store-redux/index'
 
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+    <App />,
   document.getElementById("root")
 );
