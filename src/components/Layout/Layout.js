@@ -1,9 +1,10 @@
 import Header from './Header'
+import classes from './Layout.module.css'
 
 function Layout(props){
     return<>
         <Header />
-        <main>{props.children}</main>
+        <main className={classes.layout}>{props.children}</main>
     </>
 }
 
